@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/media.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <title>Test</title>
+</head>
+<body>
+    <div class="all_in">
+        <div class="header_text check_btn">Выбери понравившегося зверька</div>
+        <input type='text' class='input'  id="form" name='surname' >
+        <img src="/img/iconmonstr-checkbox-31-240.png" alt="ok" class="ok">
+        <div class="namePet"></div>
+        <section>
+            <div class="block d-flex name_style p">
+                <!-- <div class="name1">Пингвин</div> -->
+                <div class="img_box">
+                    <img src="/img/ping.png" alt="pic">
+                </div>
+            </div>
+            <div class="block d-flex name_style r">
+                <!-- <div class="name2">Енот</div> -->
+                <div class="img_box">
+                    <img src="/img/енот.png" alt="pic">
+                </div>
+            </div>
+            <div class="block d-flex name_style s">
+                <!-- <div class="name3">Белка</div> -->
+                <div class="img_box">
+                    <img src="/img/белка2.png" alt="pic">
+                </div>
+            </div>
+            <div class="health_block">
+                <div class="energy row">Энергия:
+                    <span class="energy_value countdown" id="energy"></span>
+                    <span class="symbol" id="symbol_energy">%</span>
+                    <progress value="51" max="100" id="progress_bar_first" class="bar"></progress>
+                </div>
+                <div class="hygiene row">Гигиена:
+                    <span class="hygiene_value countdown" id="hygiene"></span>
+                    <span class="symbol">%</span>
+                    <progress value="51" max="100" id="progress_bar_second" class="bar"></progress>
+                </div>
+                <div class="satiety row">Сытость:
+                    <span class="satiety_value countdown" id="satiety"></span>
+                    <span class="symbol">%</span>
+                    <progress value="51" max="100" id="progress_bar_third" class="bar"></progress>
+                </div>
+                <div class="mood row">Настроение:
+                    <span class="mood_value countdown" id="mood"></span>
+                    <span class="symbol">%</span>
+                    <progress value="51" max="100" id="progress_bar_fourth" class="bar"></progress>
+                </div>
+                <div class="health row">Здоровье:
+                    <span class="health_value countdown" id="health"></span>
+                    <span class="symbol">%</span>
+                    <progress value="51" max="100" id="progress_bar_fifth" class="bar"></progress>
+                </div>
+                <div class="buttons_block">
+                    <button class="sleep">Отдыхать</button>
+                    <button class="play">Играть</button>
+                    <button class="feed">Кормить</button>
+                    <button class="bathe">Купать</button>
+                </div>
+            </div>
+        </section>
+    </div>
+<script src="/js/script.js"></script>
+</body>
+</html>

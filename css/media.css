@@ -1,0 +1,28 @@
+@media screen and (max-width: 450px) {
+    .all_in {
+        flex-direction: column;
+    }
+  
+    section {
+        flex-direction: column;
+    }
+    .header_text {
+        text-align: center;
+        margin-top: 20%;
+        font-size: 2.5em; 
+    }
+    .ok {
+        width: 30%;
+    }
+    .name_style {
+        font-size: 1.5rem;
+    }
+   .img_box {
+       width: 58%;
+       
+   }
+ 
+   input {
+       font-size: 1.5rem;
+   }
+}
